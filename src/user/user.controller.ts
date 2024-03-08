@@ -3,8 +3,8 @@ import { UserInfo } from 'src/utils/userInfo.decorator';
 import { Body, Controller, Get, Post, UseGuards } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 
-import { LoginDto } from 'src/dto/login.dto';
-import { User } from 'src/entities/user.entity';
+import { LoginDto } from 'src/user/dto/login.dto';
+import { User } from './entities/user.entity';
 import { UserService } from './user.service';
 
 @Controller('user')

@@ -10,7 +10,7 @@ import { SupportMessage } from './support-message/entities/support-message.entit
 import { SupportMessageModule } from './support-message/support-message.module';
 import { Team } from './team/entities/team.entity';
 import { TeamModule } from './team/team.module';
-import { User } from './entities/user.entity';
+import { User } from './user/entities/user.entity';
 import { UserModule } from './user/user.module';
 
 const typeOrmModuleOptions = {

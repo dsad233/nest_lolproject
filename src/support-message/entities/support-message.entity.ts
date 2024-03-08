@@ -1,7 +1,7 @@
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 import { Team } from '../../team/entities/team.entity';
-import { User } from 'src/entities/user.entity';
+import { User } from 'src/user/entities/user.entity';
 
 @Entity({
   name: 'support_messages',
